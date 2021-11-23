@@ -19,6 +19,9 @@ can be added by editing the CsrsEnvironmentVariablesConfigurationProvider class.
 | Splunk:Url | SPLUNK_URL | The Splunk HEC url |
 | Splunk:Token | SPLUNK_TOKEN | The Splunk HEC token |
 | Splunk:ValidatServerCertificate | SPLUNK_VALIDATE_SERVER_CERTIFICATE | |
+| Tracing:Zipkin:Url | ZIPKIN_URL | Optional Zipkin url, ie http://localhost:9411/api/v2/spans |
+| Tracing:Jaeger:Host | JAEGER_HOST | Optional Jaeger host |
+| Tracing:Jaeger:Port | JAEGER_PORT | Optional Jaeger port, if not set the default port will be used, 6831 |
 
 ## User Secrets
 
