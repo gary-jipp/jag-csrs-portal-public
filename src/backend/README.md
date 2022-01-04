@@ -16,6 +16,7 @@ can be added by editing the CsrsEnvironmentVariablesConfigurationProvider class.
 | OAuth:Secret | | |
 | OAuth:Username | | |
 | OAuth:Password | | |
+| ApiGateway:BasePath | | |
 | Splunk:Url | SPLUNK_URL | The Splunk HEC url |
 | Splunk:Token | SPLUNK_TOKEN | The Splunk HEC token |
 | Splunk:ValidatServerCertificate | SPLUNK_VALIDATE_SERVER_CERTIFICATE | |
@@ -34,6 +35,7 @@ at this location.
 ```
 dotnet user-secrets set "OAuth:AuthorizationUrl" "https://example.com/adfs/oauth2/token"
 dotnet user-secrets set "OAuth:ResourceUrl" "https://example.org/api/data/v9.0"
+dotnet user-secrets set "ApiGateway:BasePath" "https://gateway.org/orgname/api/data/v9.0"
 dotnet user-secrets set "OAuth:ClientId" "00000000-0000-0000-0000-000000000000"
 dotnet user-secrets set "OAuth:Secret" "example-kKgJyRY8QzshrMa82eoHpD9HCKQM8vkx"
 dotnet user-secrets set "OAuth:Username" "username"
