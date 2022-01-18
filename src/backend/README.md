@@ -23,6 +23,8 @@ can be added by editing the CsrsEnvironmentVariablesConfigurationProvider class.
 | Tracing:Zipkin:Url | ZIPKIN_URL | Optional Zipkin url, ie http://localhost:9411/api/v2/spans |
 | Tracing:Jaeger:Host | JAEGER_HOST | Optional Jaeger host |
 | Tracing:Jaeger:Port | JAEGER_PORT | Optional Jaeger port, if not set the default port will be used, 6831 |
+| FileManager:Address | | The address for the file manager service, on openshift, it should be dns://service-name.service-namespace.svc:port for service dns based service discovery |
+| FileManager:Secure  | | Set to `true` if using https, otherwise `false` |
 
 ## User Secrets
 
