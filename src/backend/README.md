@@ -9,7 +9,7 @@ can be added by editing the CsrsEnvironmentVariablesConfigurationProvider class.
 | Config Path | Environment Variable | Description |
 |:---| --- |:---|
 | Jwt:Audience | | The client id/resource of the application |
-| Jwt:Authority | | The authentication server including the realm, ie https://dev.oidc.gov.bc.ca/auth/realms/onestopauth-basic |
+| Jwt:Authority | | The authentication server including the realm, ie https://dev.loginproxy.gov.bc.ca/auth/realms/standard |
 | OAuth:AuthorizationUrl | | |
 | OAuth:ResourceUrl | | |
 | OAuth:ClientId | | |
